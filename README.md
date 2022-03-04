@@ -2,7 +2,7 @@
 
 ## Training
 
- Our model is trained on DTU dataset. Save in pth/model_16.pth 
+ Our model is trained on [DTU dataset](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)(extraction code：om7j). Save in pth/model_16.pth 
  
  For training, Changing the directory of training dataset in the config.py("root_dir", "train_root_dir").  
  
@@ -12,13 +12,13 @@ Then, run
 
 ## Testing
 
-### DTU dataset
+### [DTU dataset](https://pan.baidu.com/s/1Vy3LR7H1wUS_3m48tjF3wA )(extraction code:sms1)
 
 1.set test dataset path in config.py("eval_root_dir").Then run
 
     python evaldtu.py -p pth/model_16.pth
 
-### Tanks and Temples dataset
+### [Tanks and Temples dataset](https://pan.baidu.com/s/1qsOgjbFEHgdRw89SEGg5ug )(extraction code:g2a7)
 
 1.set test dataset path in config.py("datasetpath").Then run
 
