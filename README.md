@@ -34,4 +34,6 @@ Then, run
 
 5.run
 
-    python fusion.py -cfmgd 
+    python fusion.py -cfmgd -t dtu
+    
+    python fusion.py -cfmgd -t tanks
