@@ -1,8 +1,9 @@
 # GS-MVSNet
 
 ## Training
+download DTU dataset for train:[Baiduyun](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)  code：om7j
 
- Our model is trained on [DTU dataset](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)(extraction code：om7j). Save in pth/model_16.pth 
+ Our model is trained on DTU dataset. Save in pth/model_16.pth 
  
  For training, Changing the directory of training dataset in the config.py("root_dir", "train_root_dir").  
  
@@ -12,13 +13,17 @@ Then, run
 
 ## Testing
 
-### [DTU dataset](https://pan.baidu.com/s/1Vy3LR7H1wUS_3m48tjF3wA )(extraction code:sms1)
+### DTU dataset
+
+download DTU dataset for test:[Baiduyun](https://pan.baidu.com/s/1Vy3LR7H1wUS_3m48tjF3wA)  code:sms1
 
 1.set test dataset path in config.py("eval_root_dir").Then run
 
     python evaldtu.py -p pth/model_16.pth
 
-### [Tanks and Temples dataset](https://pan.baidu.com/s/1qsOgjbFEHgdRw89SEGg5ug )(extraction code:g2a7)
+### Tanks and Temples dataset
+
+download Tanks and Temples dataset for test:[Baiduyun](https://pan.baidu.com/s/1qsOgjbFEHgdRw89SEGg5ug)  code:g2a7
 
 1.set test dataset path in config.py("datasetpath").Then run
 
@@ -37,3 +42,7 @@ Then, run
     python fusion.py -cfmgd -t dtu
     
     python fusion.py -cfmgd -t tanks
+   
+## Acknowledgements
+
+Thanks to Yao Yao for opening source of his excellent work [MVSNet](https://github.com/YoYo000/MVSNet). Thanks to Xiaoyang Guo for opening source of his PyTorch implementation of MVSNet [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch).
