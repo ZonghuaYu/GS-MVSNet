@@ -2,7 +2,7 @@
 
 ## Training
 
- Our model is trained on DTU dataset. save in pth/model_16.pth 
+ Our model is trained on DTU dataset. Save in pth/model_16.pth 
  
  For training, Changing the directory of training dataset in the config.py("root_dir", "train_root_dir").  
  
