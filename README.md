@@ -1,7 +1,7 @@
 # GS-MVSNet
 
 ## Training
-download DTU dataset for train: [Baiduyun](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)  code：om7j
+Download DTU dataset for train: [Baiduyun](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)  code：om7j
 
  Our model is trained on DTU dataset. Save in pth/model_16.pth 
  
@@ -15,7 +15,7 @@ Then, run
 
 ### DTU dataset
 
-download DTU dataset for test: [Baiduyun](https://pan.baidu.com/s/1Vy3LR7H1wUS_3m48tjF3wA)  code:sms1
+Download DTU dataset for test: [Baiduyun](https://pan.baidu.com/s/1Vy3LR7H1wUS_3m48tjF3wA)  code:sms1
 
 1.set test dataset path in config.py("eval_root_dir").Then run
 
@@ -23,7 +23,7 @@ download DTU dataset for test: [Baiduyun](https://pan.baidu.com/s/1Vy3LR7H1wUS_3
 
 ### Tanks and Temples dataset
 
-download Tanks and Temples dataset for test: [Baiduyun](https://pan.baidu.com/s/1qsOgjbFEHgdRw89SEGg5ug)  code:g2a7
+Download Tanks and Temples dataset for test: [Baiduyun](https://pan.baidu.com/s/1qsOgjbFEHgdRw89SEGg5ug)  code:g2a7
 
 1.set test dataset path in config.py("datasetpath").Then run
 
