@@ -1,7 +1,6 @@
 # GS-MVSNet
 
 ## Training
-Download DTU dataset for train: [Baiduyun](https://pan.baidu.com/s/1PficbSLidkwedWqiegKM7A)  code：om7j
 
  Our model is trained on DTU dataset. Save in pth/model_16.pth 
  
